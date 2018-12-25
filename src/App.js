@@ -1,6 +1,19 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './Header';
+import './MainContent';
+import './Footer';
+
+function App() {
+    return(
+        <div>
+          <Header />
+          <MainContent />
+          <Footer />
+        </div>
+    )
+}
 
 class App extends Component {
   render() {
